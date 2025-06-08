@@ -90,13 +90,13 @@ Create and activate a virtual environment:
 
 ```bash
 python -m venv venv
-```
 # On Windows:
 venv\Scripts\activate
 # On Linux/Mac:
 source venv/bin/activate
+```
 
-Install dependencies:
+### Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -110,22 +110,18 @@ Ubuntu/Debian: sudo apt-get install graphviz
 
 MacOS: brew install graphviz
 
-Usage
+### Usage
 Run the Streamlit app:
 
 ```bash
 streamlit run app.py
 ```
-Paste or type your paragraph.
+- Paste or type your paragraph.
+- Click Generate Mind Map.
+- View the generated mind map graph.
+- Optionally download the mind map as a PNG.
 
-Click Generate Mind Map.
-
-View the generated mind map graph.
-
-Optionally download the mind map as a PNG.
-
-Notes
-The app intelligently extracts keywords and related points, showing whole sentences if needed for clarity.
-
-The venv folder is ignored in this repo; dependencies are managed via requirements.txt.
+### Notes
+1. The app intelligently extracts keywords and related points, showing whole sentences if needed for clarity.
+2. The venv folder is ignored in this repo; dependencies are managed via requirements.txt.
 
